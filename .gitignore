@@ -1,0 +1,6 @@
+client/node_modules
+client/coverage
+client/build
+.idea
+server/node_modules
+server/uploads

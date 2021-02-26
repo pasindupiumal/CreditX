@@ -1,0 +1,131 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .hero {
+  
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(landingPageImage.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  
+  .form-box {
+  
+    width: 780px;
+    height: 710px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+  
+  }
+  
+  .button-box {
+  
+    width: 400px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+  }
+ 
+  
+  
+  
+  .input-group {
+  
+    top: 140px;
+    position: absolute;
+    width: 80%;
+    transition: .5s;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+
+  p {
+
+    font-weight: bold;
+  }
+  
+  #endpointUrl {
+  
+    width: 100%;
+    padding: 15px 10px;
+    margin: 30px 0;
+    border: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    outline: none;
+    background: transparent;
+  }
+
+  #generatedLink {
+  
+    width: 100%;
+    padding: 15px 10px;
+    margin: 23px 0;
+    border: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    outline: none;
+    background: transparent;
+  }
+
+  #instructions {
+
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+  
+  li{
+    margin: 4px 0;
+  }
+  
+  .submit-btn {
+  
+    width: 40%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 18px auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .check-box {
+  
+    margin: 30px 10px 30px 0;
+  }
+  
+  span {
+  
+    color: #777;
+    font-size: 12px;
+    bottom: 94px;
+    position: absolute;
+  
+  
+  }
+  
+  #loginForm {
+  
+    left: 78px;
+  }
+  
+  #registerForm {
+  
+    left: 450px;
+  }

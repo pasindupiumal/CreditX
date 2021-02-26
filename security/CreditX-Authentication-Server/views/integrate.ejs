@@ -1,0 +1,60 @@
+<html>
+<head>
+
+    <title> Integration </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="/javascripts/rollups/sha256.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="integrate.css" type="text/css">
+    <script src="integrate.js"></script>
+    
+</head>
+
+
+<body>
+
+    <div class="hero">
+
+        <div class="form-box" id="form-box">
+
+            <div class="button-box">
+
+                <h2> CreditX Authenticator Integration </h2>
+            </div>
+
+            <div id="loginForm" class="input-group">
+
+                <p> Hi! In order to integrate the CreditX Authentication Service and proceed with the authentication process
+                    your application needs to expose a REST endpoint. Once you provided the endpoint URL an authentication link will
+                    be generated for you. Follow this by installing the CreditXAuthenticator node module, which you can use at the endpoint for
+                    verification. 
+
+                </p>
+                <br/> 
+
+                <div id="instructions">
+                    <ul>
+                        <li> Expose REST endpoint.</li>
+                        <li> Generate authenticator link.</li>
+                        <li> Install CreditXAuthenticator module.</li>
+                        <li> Proceed with the authentication porcess using VerifyUser functionality.</li>
+                    </ul>
+                </div>
+
+                <input type="text" placeholder="Please provide the REST endpoint URL here" required id="endpointUrl"/>
+            
+                <button type="button" onclick=generateLink() class="submit-btn">Generate Authenticator Link</button>
+
+                <textarea id="generatedLink" class="text-area" readonly> </textarea>
+
+
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+
+</html>

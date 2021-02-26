@@ -1,0 +1,1 @@
+#### This Application is used to test how the CreditX Authentication Service can be incorporated by third party platforms. 

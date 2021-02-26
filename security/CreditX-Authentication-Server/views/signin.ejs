@@ -1,0 +1,53 @@
+<html>
+<head>
+
+    <title> Sign In </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="/javascripts/rollups/sha256.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="signin.css" type="text/css">
+    <script src="signin.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="hero">
+
+    <div class="form-box" id="form-box">
+
+        <div class="button-box">
+
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick=loginButton()> Sign In</button>
+            <button type="button" class="toggle-btn" onclick=registerButton()> Sign Up</button>
+        </div>
+
+        <form id="loginForm" class="input-group" onSubmit="login(); return false;">
+
+            <input type="text" class="input-field" placeholder="Username" required id="loginUsername"/>
+            <input type="password" class="input-field" placeholder="Password" required id="loginPassword"/>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Sign In</button>
+        </form>
+
+        <form id="registerForm" class="input-group" onSubmit="register(); return false;">
+
+            <input type="text" class="input-field" placeholder="First Name" id="firstName"/>
+            <input type="text" class="input-field" placeholder="Last Name" id="lastName"/>
+            <input type="text" class="input-field" placeholder="Email Address" id="email"/>
+            <input type="text" class="input-field" placeholder="Username" id="username"/>
+            <input type="password" class="input-field" placeholder="Password" id="password1"/>
+            <input type="password" class="input-field" placeholder="Confirm Password" id="password2"/>
+            <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+
+    </div>
+</div>
+
+</body>
+
+</html>

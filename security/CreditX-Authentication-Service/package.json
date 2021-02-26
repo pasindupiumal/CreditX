@@ -1,0 +1,17 @@
+{
+  "name": "CreditX-Authentication-Service",
+  "version": "1.0.0",
+  "description": "Blockchain based decentralized authentication service",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "it17003674",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle-contract": "^4.0.31"
+  }
+}

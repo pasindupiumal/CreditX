@@ -1,0 +1,48 @@
+<html>
+<head>
+
+    <title> Sign In </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="/javascripts/rollups/sha256.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="index.js"></script>
+    
+</head>
+
+
+<body>
+
+    <div class="container-fluid root-div">
+        <div class="row my-row main-row">
+            <div class="col-7 my-col img-col">
+
+            </div>
+            <div class="col-5 my-col">
+                <div class="row justify-content-center align-items-start my-row button-row">
+                    <div class="col-8 my-col title-box">
+                        <h1>CreditX Authentication Service</h1>
+                    </div>
+                    <div class="col-8 my-col">
+                        <button type="button" class="submit-btn" onclick=signInBtnClick()>  Sign In to CreditX Authentication  </button>
+                    </div>
+                    <div class="col-8 my-col">
+                        <button type="button" class="submit-btn" onclick=signUpBtnClick()> Sign Up with CreditX Authentication  </button>
+                    </div>
+                    <div class="col-8 my-col">
+                        <button type="button" class="submit-btn" onclick=useCXBtnClick()> Use CreditX Authentication with My Application </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
